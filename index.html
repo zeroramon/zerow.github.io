@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK BAND</title>
+    <link rel="icon" href="/assets/img/band.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <!-- Bengin:nav bar -->
+            <ul class="nav">
+                <li><a href="#">Home</a></li> <!--thẻ li luôn xuống hàng phải css cho nó lên 1 hàng-->
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#us">Music</a></li>
+                        <li><a href="#review">Review</a></li>
+                        <li><a href="#merc">Merc</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- END:nav -->
+            <div class="search-btn">
+                <a href="https://www.google.com.vn/">
+                    <i class="search-icon ti-search"></i>
+                </a>
+                <input type="text" name="" placeholder="Find song title, artist..." required id="" class="find">
+            </div>
+        </div>
+
+
+ 
+<!----------------------SLIDER:hình bìa-------------------------->
+
+
+        <div class="slider">
+            
+            <div class="text-content">
+                <div class="containerx">
+                    <button class="btn-1 js-button">FOLLOW US!</button>
+                    <button class="btn-2 js-button2">DONATE US!</button>
+                </div>
+
+                <h2 class="text-heading">ROCK BAND</h2>
+                <div class="text-description">We made best in the world here</div>
+            </div>
+        </div>
+<!---------------------CONTENT: Tiêu đề------------------------------------->
+
+        <div class="content">
+            <div id="band" class="content-section">
+                <h2 class="section-heading">ROCK BAND</h2>
+                <p class="section-sub-heading">We love rock & color passion</p>
+                <div class="hug">
+                    <p class="about-text" style="position: relative;">We have created a fictional band website. ROCK BAND was an American post-hardcore band from Orlando, Florida. Formed in 2007, the band "burst onto the music scene with their catchy hooks and sophisticated song structures."The band joined Uprising Records to release their debut album Kingdoms in 2009 which features guest appearances by singers Jonny Craig and Craig Owens. The band is also known for their cover of The Lonely Island's single "I'm on a Boat", and have released three full-length albums entitled Kingdoms, Gentlemen's Brawl and Contexture: Gods, Men, & The Infinite Cosmos.
+                    </p>
+                    <img class="hug-item" src="/assets/img/band.png" alt="">
+                </div>
+            </div>
+
+        <!-------MEMBER LIST : 3 hình thành viên: cài này sài flex------->
+
+        <div class="member-list">
+            <div class="member-item">
+                <p class="member-name">TOP TREND VIDEO</p>
+                <iframe class="member-img" src="https://www.youtube.com/embed/NAj7QMpzaUM?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="member-item">
+                <p class="member-name">ICONIC VIDEO</p>
+                <iframe class="member-img" src="https://www.youtube.com/embed/dO6jg6Xuisw?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="member-item">
+                <p class="member-name">FAMOUS VIDEO</p>
+                <iframe class="member-img" src="https://www.youtube.com/embed/YRYdmyqgnvc?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <!--TOUR DATES Bảng ngày và số lượng vé-->
+        <div id="tour" class="tour-section">
+            <div class="content-section">
+                <h2 class="section-heading2">TOUR DATES</h2>
+                <p class="section-sub-heading">Remember to book tickets</p>
+                <ul class="tickets-list">
+                    <li>September
+                        <span class="sold-out">Sold out</span>
+                    </li>
+                    <li>October 
+                        <span class="sold-out">Sold out</span>
+                    </li>
+                    <li>November
+                        <span class="quality">3</span>
+                    </li>
+                </ul>
+            
+
+                <!---place: list 3 nơi diễn ra tour kèm bán vé-->
+                <div class="row place-list">
+                    <div class="col col-third">
+                        <figure>
+                        <img src="/assets/img/sanfran.jpg" alt="" class="place-img">
+                        </figure>
+                        <div class="place-body">
+                            <h3 class="place-heading">San Francisco</h3>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="decripton">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn place-buy-btn js-buy-ticket">Buy Tickets</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-third">
+                        <figure>
+                        <img src="/assets/img/newyork.jpg" alt="" class="place-img">
+                        </figure>
+                        <div class="place-body">
+                            <h3 class="place-heading">New York</h3>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="decripton">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn place-buy-btn js-buy-ticket">Buy Tickets</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-third">
+                        <figure>
+                        <img src="/assets/img/paris.jpg" alt="" class="place-img">
+                        </figure>
+                        <div class="place-body">
+                            <h3 class="place-heading">Paris</h3>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="decripton">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn place-buy-btn js-buy-ticket">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    
+
+        <!--CONTACT-->
+            <div id="contact" class="content-section">
+                    <h2 class="section-heading">CONTACT</h2>
+                    <p class="section-sub-heading">Fan? Drop a note</p>
+                    <div class="row contact-content">
+                        <div class="col col-half contact-info">
+                            <p><i class="ti-location-pin"></i>Chicago , USA</p>
+                            <p><i class="ti-mobile"></i>Phone: +84 58345</p>
+                            <p><i class="ti-email"></i>Email: 19119143.@gmail</p>
+                        </div>
+                        <div class="col col-half">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col col-half contact-form">
+                                        <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                    </div>
+                                    <div class="col col-half">
+                                        <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mt-8">
+                                    <div class="col col-ful">
+                                        <input type="text" name="" placeholder="Message" class="form-control"></input:message>
+                                    </div>
+                                </div>
+                                <input type="submit" value="SEND" class="submit-btn mt-16">
+                            </form>
+                        </div>
+                    </div><div id="us"></div>
+            </div>
+            
+        </div>
+<!-------------------------------------------------------------------------------->
+<!---------------------Music---------------------------->
+
+<div class="father-container">
+
+    <div class="music-heading">Music Galery</div>
+    
+    <div class="music-container">
+        <div class="masked-overflow">
+        <div class="music-box">
+            <div class="music-img">
+                <img src="./assets/imgAudio/love1.jpg" alt="">
+            </div>
+            <div class="music-name">3107 1</div>
+            <div class="music">
+                <audio src="./assets/Audio/lovei.mp3" controls></audio>
+            </div>
+        </div>
+
+        <div class="music-box">
+            <div class="music-img">
+                <img src="./assets/imgAudio/love2.jpg" alt="">
+            </div>
+            <div class="music-name">3107 2</div>
+            <div class="music">
+                <audio src="./assets/Audio/loveii.mp3" controls></audio>
+            </div>
+        </div>
+
+        <div class="music-box">
+            <div class="music-img">
+                <img src="./assets/imgAudio/love3.jpg" alt="">
+            </div>
+            <div class="music-name">3107 3</div>
+            <div class="music">
+                <audio src="./assets/Audio/loveiii.mp3" controls></audio>
+            </div>
+        </div>
+
+        <div class="music-box">
+            <div class="music-img">
+                <img src="./assets/imgAudio/love4.jpg" alt="">
+            </div>
+            <div class="music-name">3107 7</div>
+            <div class="music">
+                <audio src="./assets/Audio/loveiv.mp3" controls></audio>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+
+</div>
+
+
+<!--------------------------------------------------------------------------------->
+         <!--TEAM-->
+         
+         <div  class="team-position">
+            <div class="postion-info">THIS IS US</div>
+            <div class="positoin-job">Founder</div>
+                    <!-- Feature layout -->
+                    <div class="feature-layout">
+                        <div class="feature-itemA">
+                            <h2 class="realid">RYAN VANDENBOOM</h2>
+                            <p class="nickname">NICK NAME:JACKSON</p>
+                        </div>
+                        <div class="feature-itemA">
+                            <h2 class="realid">JOEY GACI</h2>
+                            <p class="nickname">NICK NAME:VANDER</p>
+                        </div>
+                    </div>
+
+                    <div class="positoin-job">Team Member</div>
+                    <!-- Feature layout -->
+                    <div class="feature-layout">
+                        <div class="feature-item">
+                            <h2 class="realid">WHITNEY BASHOR</h2>
+                            <p class="nickname">NICK NAME:RACHEL</p>
+                        </div>
+                        <div class="feature-item">
+                            <h2 class="realid">KALI MAY</h2>
+                            <p class="nickname">NICK NAME:ENSEMBLE</p>
+                        </div>
+                        <div class="feature-item">
+                            <h2 class="realid">KYLE R. ROBINSON</h2>
+                            <p class="nickname">NICK NAME:KYLE'O RILEY</p>
+                        </div>
+                    </div>
+        </div>
+
+<!--------------------judge center----------------------------------------->
+<div class="oh">
+        <div id="review" class="wrap-grandpa">
+        <div class="wrap-father">
+            <div class="wrap-layout">
+                <div class="wrap-layout_item">Professional review</div>
+                <div class="wrap-layout_item">
+                    <span><i class="fa-solid fa-star" style="color: #ffeb8d;"></i></span>
+                    <span><i class="fa-solid fa-star" style="color: #fed46b;"></i></span>
+                    <span><i class="fa-solid fa-star" style="color: #fed46b;"></i></span>
+                    <span><i class="fa-solid fa-star" style="color: #fa9e1b;"></i></span>
+                    <span><i class="fa-solid fa-star-half-stroke" style="color: #fa9e1b;"></i></span>
+                </div>
+                <div class="wrap-layout_item">
+                    <p>
+                    Are you a fan of electric rock from the 90s with a touch of classic rock thrown in.
+                    </p>
+                    <p>This rock offering spends the first half bathing you in Crosby and Nash-like pop rock full of fabulous multi-part lead vocal harmonies</p>
+                </div>
+                <div class="wrap-layout_item js-view">
+                    <span>View</span>
+                    <span><i class="ti-comments-smiley"></i></span>                  
+                </div>
+                
+            </div><div id="merc" ></div>
+        </div>
+        </div> 
+    </div>
+<!------------------------------------Merc-------------------------------------->
+        <div class="merc-grandpa">
+            <div class="merc-text">merchandise</div>
+            <div class="merc-father">
+                <div class="merc-brother">
+                   <div class="merc-item"><button class="merc-btn js-merc">
+                       <span><i class="fa-brands fa-bitcoin"></i></span>
+                       <span>1 Btc</span>
+                   </button></div>
+                   <div class="merc-item"><button class="merc-btn">
+                       <span><i class="fa-brands fa-bitcoin"></i></span>
+                       <span>1 Btc</span>
+                   </button></div>
+                   <div class="merc-item"><button class="merc-btn">
+                       <span><i class="fa-brands fa-bitcoin"></i></span>
+                       <span>4 Btc</span>
+                   </button></div>
+                   <div class="merc-item"><button class="merc-btn">
+                       <span><i class="fa-brands fa-bitcoin"></i></span>
+                       <span>3 Btc</span>
+                   </button></div> 
+                </div>
+            </div>
+        </div>
+ <!----------------------MAP-end------------------------------------------>
+        <div class="map-section">
+        
+        </div>
+
+
+        <!--footer-->
+        <div class="footer">
+            <div class="socials-list">
+                <a href="https://www.facebook.com/" class="ti-facebook"><i></i></a>
+                <a href="https://www.instagram.com/" class="ti-instagram"><i></i></a>
+                <a href="" class="ti-snapchat"><i></i></a>
+                <a href="https://www.pinterest.com/" class="ti-pinterest"><i></i></a>
+                <a href="https://twitter.com/" class="ti-twitter"><i></i></a>
+                <a href="" class="ti-linkedin"><i></i></a>
+                <p class="copyright"> Power by Nguyen Phuc Bao Truong </p>
+                <p class="copyright"> Nguyen Tan Vuong Kha </p>
+                <p>
+                <a class="tic" href="">PRIVACY POLICY</a>
+                <a class="tic" href="">TERMS & CONDITIONS</a>
+                <a class="tic" href="">COOKIE POLICY</a>
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+<!-------------- Lớp phủ -->
+    <div class="modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close">
+                
+
+                </i>
+            </div>
+            <header class="modal-header">
+                <i class="ti-bag"></i>
+                TICKET
+            </header>
+            <div class="blank"></div>
+        <div class="modal-body">
+            <!-- for: nhập id input vô để lick label thì nó kêu điền-->
+            <label for="ticket-quantity" class="modal-label">
+                <i class="ti-shopping-cart"></i>
+                Tickets, $15 per person
+            </label>
+
+            <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+
+            <label for="contact-email" class="modal-label">
+                <i class="ti-user"></i>
+                Send to
+            </label>
+
+            <input id="contact-email" type="email" class="modal-input" placeholder="Enter Email">
+            
+            <button class="buy-tickets">
+                PAY
+                <i class="ti-check"></i>
+            </button>
+            
+            <footer class="modal-footer">
+                <p class="modal-help">Need
+                    <a href="">help?</a>
+                </p>
+            </footer>
+            
+        
+        </div>
+    </div>  
+
+
+    <script>
+        /*const là hằng: để lấy biến
+        Btns: có s lấy cả 3 cái nút
+        document .query có ALL cho tất cả lấy tất các mọi thứ có class
+        lắng nghe hành click vòng lặp
+        */
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        
+        /*query ko all chỉ lấy 1 thằng*/
+        const modal = document.querySelector('.modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modaltopbutton = document.querySelector('.js-button')
+        const modaltopbutton2 = document.querySelector('.js-button2')
+        const modaltopbutton3 = document.querySelector('.js-view')
+        const modaltopbutton4 = document.querySelector('.js-merc')
+//-------------------------       
+        function showBuyTickets() {
+            modal.classList.add('open')
+            
+        }
+
+        function hideBuyTickets() {
+            modal.classList.remove('open')
+        }
+        function bubble(event) {
+            event.stopPropagation()
+        }
+        function topbutton() {
+            alert('cảm ơn đã ấn nhưng chưa có liên kết nào ở đây hihi :)');
+        }
+        function topbutton2() {
+            alert('có tiền không mà donate hihi :)');
+        }
+        function topbutton3() {
+            alert('view để xem thêm nhưng chưa có gì để xem thêm đâu kk :>');
+        }
+        function topbutton4() {
+            alert('3 cái nút kế bên chưa setup để suất hiện gì hết bạn nhé ấn vô ko có gì đâu :(');
+        }
+/*---------------------
+        /*tạo vòng lập thêm buyBtns danh dách lưu vô 1 thằng*/
+        for (const buyBtn of buyBtns) {
+            /* khi mà buyBtn có click là nó chạy hàm showBuytickets*/
+            buyBtn.addEventListener('click',showBuyTickets)
+        }
+        /*1 thăng ko cần for*/
+        modalClose.addEventListener('click',hideBuyTickets)
+
+        modalContainer.addEventListener('click',bubble)
+
+        modaltopbutton.addEventListener('click',topbutton)
+        modaltopbutton2.addEventListener('click',topbutton2)
+        modaltopbutton3.addEventListener('click',topbutton3)
+        modaltopbutton4.addEventListener('click',topbutton4)
+//---------------------  
+    
+    </script>
+
+</body>
+</html>
